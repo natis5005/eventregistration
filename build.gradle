@@ -30,4 +30,7 @@ dependencies {
 task stage (){
 	dependsOn ':EventRegistration-Backend:assemble'
 }
+wrapper {
+	gradleVersion = '6.6.1'
+}
 
